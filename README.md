@@ -37,7 +37,7 @@ git clone https://github.com/JacobEberhardt/ZoKrates
 cd ZoKrates
 docker build -t zokrates .
 docker run -ti zokrates /bin/bash
-cd ZoKrates/target/release
+cd ZoKrates/target/debug
 ```
 
 # Example
